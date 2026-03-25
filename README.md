@@ -2,6 +2,8 @@
 
 A production-ready recommendation system microservice with REST API, SQLite database, hybrid recommendation engine, caching, unit tests, and evaluation metrics — all in a single file.
 
+🌐 **Live API:** https://effective-parakeet-699566947j7jc545-5000.app.github.dev
+
 ---
 
 ## 🚀 Features
@@ -26,6 +28,20 @@ recommendation-system-api/
 ├── requirements.txt   # Dependencies
 └── README.md          # Documentation
 ```
+
+---
+
+## 🌐 Live API Endpoints
+
+Base URL: `https://effective-parakeet-699566947j7jc545-5000.app.github.dev`
+
+| Method | Endpoint | Try it |
+|---|---|---|
+| GET | `/` | [Home](https://effective-parakeet-699566947j7jc545-5000.app.github.dev/) |
+| GET | `/health` | [Health](https://effective-parakeet-699566947j7jc545-5000.app.github.dev/health) |
+| GET | `/recommendations/1` | [Recommendations](https://effective-parakeet-699566947j7jc545-5000.app.github.dev/recommendations/1) |
+| GET | `/metrics` | [Metrics](https://effective-parakeet-699566947j7jc545-5000.app.github.dev/metrics) |
+| POST | `/feedback` | Send rating/interaction |
 
 ---
 
@@ -203,7 +219,9 @@ run_tests()
 
 ## 👤 Author
 
-Built as part of HiDevs 100-Day Internship Program.
+**Sarika Jivrajika**
+- GitHub: [@Sarika-stack23](https://github.com/Sarika-stack23)
+- Project: [HiDevs 100-Day Internship Program](https://hidevs.com)
 
 ---
 
