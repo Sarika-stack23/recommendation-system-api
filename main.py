@@ -613,7 +613,7 @@ def health():
         "db":       "connected",
         "users":    user_count,
         "content":  content_count,
-        "time":     datetime.utcnow().isoformat()
+        "time":     datetime.now().isoformat()
     })
 
 
